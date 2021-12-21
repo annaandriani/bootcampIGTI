@@ -1,5 +1,6 @@
 import pandas as pd
 
+#Exercícios para o teste de análise de dados
 #Leitura do dataset em csv
 df = pd.read_csv("https://pycourse.s3.amazonaws.com/bike-sharing.csv", decimal='.')
 print('o tamanho do dataset é:', df.shape)
